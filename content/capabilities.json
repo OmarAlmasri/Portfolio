@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "web-applications",
+    "title": "Web Application Assessments",
+    "summary": "Manual testing and targeted automation for auth flows, access control, business logic, and chained exploitation paths.",
+    "bullets": [
+      "Authentication and session analysis",
+      "Authorization and tenant isolation testing",
+      "API abuse, logic flaws, and input handling",
+      "Exploit reproduction with developer-ready evidence"
+    ]
+  },
+  {
+    "slug": "infrastructure",
+    "title": "Infrastructure and Internal Testing",
+    "summary": "Network and host reviews that prioritize lateral movement opportunities, privilege escalation, and weak operational controls.",
+    "bullets": [
+      "External and internal attack surface validation",
+      "Active Directory and identity path reviews",
+      "Service misconfiguration and weak segmentation",
+      "Privilege escalation and post-exploitation mapping"
+    ]
+  },
+  {
+    "slug": "adversary-emulation & simulation",
+    "title": "Red Team Operations",
+    "summary": "Objective-driven engagements built to test detection quality, operational visibility, and response discipline under pressure.",
+    "bullets": [
+      "Scenario design and campaign planning",
+      "Infrastructure and payload tradecraft review",
+      "Detection-aware execution with opsec guardrails",
+      "Debriefs focused on security posture improvement"
+    ]
+  },
+  {
+    "slug": "security-tooling",
+    "title": "Security Tooling and Automation",
+    "summary": "Practical tooling for recon, exploitation/post-exploitation, privilege escalation, evasion, reporting, triage, and repeatable validation without losing analyst control.",
+    "bullets": [
+      "Recon workflow automation",
+      "Offensive Security R&D",
+      "Report templates and data normalization",
+      "Validation scripts for repeated checks",
+      "Dashboards for findings and attack paths"
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+---
+title: "Three Attack Path Clues I Look For Early"
+excerpt: "A fast way to prioritize offensive testing is to spot the assumptions that make chaining easier before you touch exploitation."
+date: "2026-03-02"
+tags:
+  - red-team
+  - methodology
+  - reconnaissance
+featured: true
+---
+
+The earliest recon phase usually tells you whether an environment will be a grind or a chain-building exercise. I tend to look for three classes of clues first.
+
+## 1. Trust boundaries that look cleaner on paper than they are in reality
+
+If a system claims strong separation between users, tenants, or environments, I immediately want to know where that separation actually lives. Is it enforced in middleware, in the database layer, in route guards, or only in the interface? Security language is often stronger than the controls underneath it.
+
+## 2. Operational shortcuts
+
+Operators and developers make tradeoffs. That is normal. The question is whether those tradeoffs accidentally create leverage for an attacker. Shared secrets, long-lived admin sessions, debugging endpoints, or internal convenience tools often matter more than a flashy high-severity scanner result.
+
+## 3. Visibility gaps
+
+I care about what defenders can and cannot see. A weak path that is loudly visible has a different value than a medium-severity path with poor telemetry. Understanding that difference makes the rest of the engagement sharper.
+
+The point is not to force a chain where none exists. It is to identify the assumptions most likely to collapse once pressure is applied.

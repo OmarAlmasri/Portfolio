@@ -1,0 +1,109 @@
+[
+  {
+    "slug": "registry-manipulation-monitor",
+    "title": "Registry Manipulation Monitor",
+    "category": "Monitoring Tooling",
+    "period": "2025",
+    "status": "Private Build",
+    "featured": true,
+    "command": "regmon.exe",
+    "summary": "A light registry montioring tool on Windows that's built with GoLang to detect and triage every registry edit",
+    "stack": ["GoLang"],
+    "outcomes": [
+      "A dashboard that will show alerts and registry changes with risk-based categorization",
+      "Made registry changes by attackers detectable in real-time"
+    ],
+    "sections": [
+      {
+        "title": "Mission",
+        "body": [
+          "This concept was designed around a simple problem: There are no light registry monitoring tools that will detect and send alerts about registry edits."
+        ]
+      },
+      {
+        "title": "Approach",
+        "body": [
+          "The build was done by levels, first level was done by making a simple registry monitor that will watch one key in Windows Registry, the next level was done by implementing a global registry monitor"
+        ]
+      },
+      {
+        "title": "Value",
+        "body": [
+          "The result is a repeatable format for understanding what changed, what matters, and what needs a second pass before taking actions."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "operator-reporting-kit",
+    "title": "Operator Reporting Kit",
+    "category": "Workflow Design",
+    "period": "2025",
+    "status": "Internal Template",
+    "featured": true,
+    "command": "render --report --audience exec,technical",
+    "summary": "A reporting structure for turning raw findings into concise, remediation-ready narratives for both technical and non-technical readers.",
+    "stack": ["Markdown", "MDX", "Structured Findings", "Evidence Templates"],
+    "outcomes": [
+      "Improved consistency across deliverables",
+      "Separated technical evidence from executive context cleanly",
+      "Cut time spent rewriting recurring sections"
+    ],
+    "sections": [
+      {
+        "title": "Mission",
+        "body": [
+          "Reporting is where good technical work often loses impact. This kit focuses on making exploitation evidence, business impact, and remediation guidance easier to consume."
+        ]
+      },
+      {
+        "title": "Approach",
+        "body": [
+          "The structure uses reusable finding blocks, severity context, and proof-focused layouts so reports stay readable without losing depth."
+        ]
+      },
+      {
+        "title": "Value",
+        "body": [
+          "The output helps security teams move faster on fixes while still giving leadership enough clarity to prioritize the work."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ad-lab-attack-paths",
+    "title": "AD Lab Attack Paths",
+    "category": "Red Team Lab",
+    "period": "2024",
+    "status": "Lab Environment",
+    "featured": true,
+    "command": "enumerate --ad --paths --priv-esc",
+    "summary": "A lab-driven Active Directory workflow for mapping privilege escalation chains, weak delegation, and lateral movement opportunities.",
+    "stack": ["Active Directory", "PowerShell", "Enumeration", "Privilege Escalation"],
+    "outcomes": [
+      "Mapped repeatable privilege escalation scenarios",
+      "Documented defender-visible signals during each phase",
+      "Created better validation checklists for internal assessments"
+    ],
+    "sections": [
+      {
+        "title": "Mission",
+        "body": [
+          "This project exists as a repeatable training ground for understanding how small identity misconfigurations chain into serious domain risk."
+        ]
+      },
+      {
+        "title": "Approach",
+        "body": [
+          "Each path is documented from initial enumeration to escalation, including the assumptions required for the path to succeed and the artifacts it leaves behind."
+        ]
+      },
+      {
+        "title": "Value",
+        "body": [
+          "The result is a better link between offensive execution and defender visibility, which improves both testing quality and remediation advice."
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Application Security",
+    "items": ["Burp Suite", "AuthZ testing", "API validation", "Logic flaw analysis"]
+  },
+  {
+    "title": "Infrastructure",
+    "items": ["Nmap", "Service enumeration", "AD review", "Privilege escalation"]
+  },
+  {
+    "title": "Operator Workflow",
+    "items": ["Recon note systems", "Reporting templates", "Repeatable validation scripts", "Evidence packaging"]
+  },
+  {
+    "title": "Development",
+    "items": ["HTML", "CSS", "JavaScript", "TypeScript", "Responsive UI builds"]
+  }
+]

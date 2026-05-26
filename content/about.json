@@ -1,0 +1,15 @@
+{
+  "eyebrow": "01 // operator-profile",
+  "title": "Offensive security with a developer's discipline.",
+  "summary": [
+    "I approach security work like engineering work: map the system, understand the assumptions, break the right things, then leave it stronger than I found it.",
+    "My background spans penetration testing, systems work, and web development, which lets me move comfortably between reconnaissance, exploitation, root-cause analysis, and pragmatic remediation guidance."
+  ],
+  "principles": [
+    "Evidence over assumptions",
+    "Real-world attack paths over checkbox testing",
+    "Clear reporting that defenders can act on",
+    "Automation where it saves analysts time"
+  ],
+  "image": "/images/about-final.png?v=20260526-1902"
+}

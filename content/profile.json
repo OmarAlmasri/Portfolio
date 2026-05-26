@@ -1,0 +1,41 @@
+{
+  "name": "Omar Ibrahim",
+  "alias": "Ripcord88x",
+  "headline": "Penetration Tester and Red Team Operator",
+  "subheadline": "Offensive security operator focused on web applications, infrastructure assessments, and adversary simulation with a builder's mindset.",
+  "availability": "Available for assessments, red team exercises, and security-minded product work.",
+  "status": "signal: online // engagements: open",
+  "resumeHref": "/documents/omar-ibrahim-cv.pdf",
+  "portrait": "/images/avatar2.png",
+  "brandLogo": "/images/Ripcord-Avatar.png",
+  "roles": [
+    "Penetration Tester",
+    "Red Team Operator",
+    "Security Researcher",
+    "Security-Focused Web Developer"
+  ],
+  "focusAreas": [
+    "Web application security",
+    "Infrastructure testing",
+    "Detection-aware red teaming",
+    "Security automation"
+  ],
+  "socials": [
+    {
+      "label": "Facebook",
+      "href": "https://www.facebook.com/omar.almasri.5686/"
+    },
+    {
+      "label": "Twitter",
+      "href": "https://twitter.com/OmarMas06526604?t=9s9TFK_rh8e_Wv1Wja8FIQ&s=09"
+    },
+    {
+      "label": "Instagram",
+      "href": "https://www.instagram.com/omar.almasri8x/"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/omar-ibrahim-b94652242/"
+    }
+  ]
+}

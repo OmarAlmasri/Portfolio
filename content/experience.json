@@ -1,0 +1,51 @@
+[
+  {
+  "slug": "proresources-technology",
+  "company": "ProResources Technology",
+  "role": "Offensive Security Engineer",
+  "period": "2026 - Present",
+  "mode": "Full Time",
+  "location": "Onsite",
+  "logo": "images/ProResources.jpg",
+  "summary": "Leading red team operations and penetration testing engagements across banking sector clients, covering Active Directory infrastructure, mobile applications, and internal web platforms.",
+  "highlights": [
+    "Conducted full-scope internal penetration tests against banking clients, executing complete Active Directory attack chains through to Domain Admin",
+    "Performed authorized mobile application assessments against Android banking apps, covering OTP bypass, biometric bypass, JWT analysis, and insecure storage",
+    "Built and deployed a phishing simulation framework using EvilGoPhish, including custom O365 phishlet configuration and AWS EC2 infrastructure planning",
+    "Developed penetration testing project management documentation including Rules of Engagement, Scope of Work, and NDA templates aligned with CBS 122 and PCI-DSS compliance requirements"
+  ],
+  "tooling": ["Certipy-AD", "BloodHound", "NetExec", "Impacket", "Responder", "Burp Suite", "Frida", "Nessus", "Cobalt Strike", "SysReptor"]
+},
+{
+    "slug": "deloitte",
+    "company": "Deloitte",
+    "role": "Penetration Tester",
+    "period": "2024 - 2026",
+    "mode": "Full Time",
+    "location": "Onsite",
+    "logo": "/images/Deloitte.jpeg",
+    "summary": "Delivering network and application penetration tests with a focus on credible exploitation paths and actionable reporting.",
+    "highlights": [
+      "Executed assessments across infrastructure and web application targets",
+      "Translated technical findings into remediation guidance for stakeholders",
+      "Collaborated with teams to validate fixes and reduce repeated issues"
+    ],
+    "tooling": ["Burp Suite", "Nmap", "OWASP Testing Guide", "Reporting Workflows"]
+  },
+  {
+    "slug": "tech-maestros",
+    "company": "Tech Maestros",
+    "role": "Web Developer and IT Specialist",
+    "period": "2024",
+    "mode": "Freelance",
+    "location": "Remote",
+    "logo": "/images/Tech-Maestros.jpg",
+    "summary": "Built responsive web experiences and handled operational IT work across deployment, maintenance, and user support.",
+    "highlights": [
+      "Delivered responsive interfaces and custom front-end behavior",
+      "Supported infrastructure and endpoint reliability work",
+      "Bridged technical execution between product needs and IT operations"
+    ],
+    "tooling": ["HTML", "CSS", "JavaScript", "Responsive Design", "System Administration", "Cyber Security"]
+  }
+]
