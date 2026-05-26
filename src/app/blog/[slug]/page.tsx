@@ -7,11 +7,16 @@ import { mdxComponents } from "@/components/mdx-components";
 import { getAllPosts, getPostBySlug } from "@/lib/content";
 import { formatDisplayDate } from "@/lib/formatters";
 
-export const dynamic = "force-dynamic";
-
 type BlogPostPageProps = {
   params: Promise<{ slug: string }>;
 };
+
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+  const posts = await getAllPosts();
+  return posts.map((post) => ({ slug: post.slug }));
+}
 
 export async function generateMetadata({ params }: BlogPostPageProps): Promise<Metadata> {
   const { slug } = await params;

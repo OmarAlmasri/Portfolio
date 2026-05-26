@@ -4,6 +4,7 @@ import "./globals.css";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { getProfile } from "@/lib/content";
+import { siteUrl } from "@/lib/site";
 
 const displayFont = Space_Grotesk({
   subsets: ["latin"],
@@ -16,6 +17,7 @@ const monoFont = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: {
     default: "Omar Ibrahim | Offensive Security Portfolio",
     template: "%s | Omar Ibrahim"

@@ -25,11 +25,18 @@ const contentRoot = path.join(process.cwd(), "content");
 const blogRoot = path.join(contentRoot, "blog");
 
 function normalizePublicAssetPath(value: string) {
-  if (value.startsWith("/") || value.startsWith("http://") || value.startsWith("https://")) {
+  if (value.startsWith("http://") || value.startsWith("https://")) {
     return value;
   }
 
-  return `/${value}`;
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+  const normalizedPath = value.startsWith("/") ? value : `/${value}`;
+
+  if (!basePath || normalizedPath.startsWith(`${basePath}/`) || normalizedPath === basePath) {
+    return normalizedPath;
+  }
+
+  return `${basePath}${normalizedPath}`;
 }
 
 async function readJsonFile<T>(fileName: string) {

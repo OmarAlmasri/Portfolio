@@ -16,8 +16,6 @@ import {
 } from "@/lib/content";
 import { formatDisplayDate } from "@/lib/formatters";
 
-export const dynamic = "force-dynamic";
-
 export default async function HomePage() {
   const [profile, about, capabilities, experience, projects, toolbox, contact, posts, featuredPosts] =
     await Promise.all([

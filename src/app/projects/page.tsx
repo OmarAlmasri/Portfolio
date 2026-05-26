@@ -3,8 +3,6 @@ import { PageHero } from "@/components/page-hero";
 import { ProjectWorkbench } from "@/components/project-workbench";
 import { getProjects } from "@/lib/content";
 
-export const dynamic = "force-dynamic";
-
 export const metadata: Metadata = {
   title: "Projects",
   description: "Project archive and case files."

@@ -3,8 +3,6 @@ import { BlogWorkbench } from "@/components/blog-workbench";
 import { PageHero } from "@/components/page-hero";
 import { getAllPosts } from "@/lib/content";
 
-export const dynamic = "force-dynamic";
-
 export const metadata: Metadata = {
   title: "Blog",
   description: "Field notes, methodology, and security writing."
